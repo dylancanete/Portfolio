@@ -1,0 +1,43 @@
+h1{
+	font-family: 'Bebas Neue', sans-serif;
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-size: 50px;
+}
+
+h2{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 35px;
+	text-align: left;
+}
+
+h3{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 30px;
+	background-color: #D3D3D3;
+	color: black;
+	text-align: left;
+}
+
+h4{
+	font-family: 'Bebas Neue', sans-serif;
+	color: grey;
+	font-size: 25px;
+	text-align: left;
+}
+
+p{
+	font-family: 'Futura', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	display: inline-block;
+}
+img{
+    height: 150px;
+    align-items: center;
+}
+a{
+  /* make your links red, italics, and underlined */
+	padding-left: 1px;
+}
