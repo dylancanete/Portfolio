@@ -5,31 +5,64 @@
 	<title>Contact Me</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161205804-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161205804-1');
+
+</script>
+
+
 </head>
 <body>
 <header>
+	<a class="skip-link" href='#main'>Skip to content</a>
 	<nav>
-		<ol>
-		<a href="index.html">Home</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="aboutme.html">About Me</a>
-		<a href="contact.html">Contact</a>
-		</ol>
+		<ul class="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="aboutme.html">About Me</a></li>
+		<li><a class="current" href="contact.html">Contact</a></li>
+		</ul>
 	</nav>
 </header>
 
-<main>
 
+<main id="main">
 <h1>Contact me</h1>
 
 <h3>Linkedin</h3>
 
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="dylan-canete"><a class="LI-simple-link" href='https://www.linkedin.com/in/dylan-canete?trk=profile-badge'>Dylan Cañete</a></div>
+<p><a href="https://www.linkedin.com/in/dylan-canete">Linkedin Profile</a></p>
 
 <h3>Mobile</h3>
-	<p> Available by request </p>
+<p> Available by request </p>
+</main>
 
+
+<div class="container">
 <h3>Email</h3>
-	<a href="dcanete@umich.edu">Email</a>
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="First Name" placeholder="First Name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="Last Name" placeholder="Last Name">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Enter Message Here" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+<footer>Dylan Canete &copy; 2020</footer>
