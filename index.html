@@ -5,31 +5,42 @@
 	<title>Home</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161205804-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161205804-1');
+
+</script>
+
 </head>
 <body>
 	
 <header>
+	<a class="skip-link" href='#main'>Skip to content</a>
 	<nav>
-		<ol>
-		<a href="index.html">Home</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="aboutme.html">About Me</a>
-		<a href="contact.html">Contact</a>
-		</ol>
+		<ul class="nav">
+		<li><a class="current" href="index.html">Home</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="aboutme.html">About Me</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		</ul>
 	</nav>
 </header>
 
-<main>
 
 <h1>Dylan Canete</h1>
-<h2>Not All Who Wander Are Lost</h2>
-<p> ...But Bad Design Will Guarantee It. </p>
-<p> Welcome to my portfolio, a collection of work designed to be the opposite of that. </p>
+<div class="indexheader"><h2>Welcome to My Portfolio</h2>></div>
 
-
+<main id="main">
+<div class = rotate><img src = "images/paintsplash.jpg" alt="Paint Splash"/></div>
 </main>
 
-<footer>Dylan Canete University of Michigan &copy; 2020</footer>
+<footer>Dylan Canete &copy; 2020</footer>
 
 </body>
 </html>
