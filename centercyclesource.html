@@ -5,22 +5,37 @@
 	<title>CenterCycle Source</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161205804-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161205804-1');
+
+</script>
+
+
 </head>
 <body>
 <header>
+	<a class="skip-link" href='#main'>Skip to content</a>
 	<nav>
-		<ol>
-		<a href="index.html">Home</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="aboutme.html">About Me</a>
-		<a href="contact.html">Contact</a>
-		</ol>
+		<ul class="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a class="current" href="portfolio.html">Portfolio</a></li>
+		<li><a href="aboutme.html">About Me</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		</ul>
 	</nav>
 </header>
 
-<main>
 
 <h1>CenterCycle Source</h1>
+
 
 <h3>Challenge</h3>
 	<p>Identify a contemporary issue and provide a unique solution that can be readily adapted using technology available today</p>
@@ -34,10 +49,14 @@
 
 	<p>I was ready to tackle that head on.</p>
 
+
 <h3>It's not just me right?</h3>
+	<main id="main">
 
 	<h4>Context</h4>
 		<p>To understand the breadth of the issue, I conducted background research and user survey and interviews</p>
+
+	</main>
 
 	<h4>Research</h4>
 		<p>What I found through research is that despite recycling being a ubiquitous presence in conversations about the environment, we are all doing it wrong.</p>
@@ -71,12 +90,13 @@
 
 		<p>What I consistently found by the end of my research were the obstacles preventing survey participants from even attempting to coordinate their own recycling pickups:</p>
 
-			<ol>
-				<p>• Resources were hard to find using basic search phrases</p>
-				<p>• Even harder to find? What these resources did once you found them</p>
-				<p>• Trying to figure out if they serve your area? The answer will come to you in no less than 10 clicks and much rooting around</p>
-				<p>• Once you've finally reached that serendipitous moment in which the company not only serves your purpose but also your area, it is almost always often followed up by a staggering price tag</p>
-			</ol>
+				<p>Resources were hard to find using basic search phrases</p>
+
+				<p>Even harder to find? What these resources did once you found them</p>
+
+				<p>Trying to figure out if they serve your area? The answer will come to you in no less than 10 clicks and much rooting around</p>
+
+				<p>Once you've finally reached that serendipitous moment in which the company not only serves your purpose but also your area, it is almost always often followed up by a staggering price tag</p>
 
 		<p>What I found by the end is that the survey participants were right to feel defeated from the start. Finding access to proper recycling education and pickup was a large investment.</p>
 
@@ -102,13 +122,68 @@
 		<p>Critical Feature Selection, also known as QOC (Questions, Options, Criteria) was where critical user points within the product emerged and different design options were presented to give varying priorities.  The goal here was to strike a design balance so that users could be more educated and have better access to recycling with the least amount of effort.  It was during this exercise that I had to think through what areas of the product should I lean on being a comprehensive resource and which areas should I lean on efficiency and reducing the touch points.  Ultimately, this yielded (3) different scenarios that showcased this balance and justifications for each option to further assess the impact of these tradeoffs on the final product and overall mission.</p>
 
 	<h4>Paper Prototype</h4>
+
+<div class="gallery">
+  <a target="_blank" href="detailedrecyclingbin.png">
+    <img src="images/detailedrecyclingbin.png" alt="Detailed Recycling Bin">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="rewardsapp.png">
+    <img src="images/rewardsapp.png" alt="Rewards App">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="recyclinggameapp.png">
+    <img src="images/recyclinggameapp.png" alt="Recycling Game App">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="reversevendingmachine.png">
+    <img src="images/reversevendingmachine.png" alt="Reverse Vending Machine">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="recyclingpickup.png">
+    <img src="images/recyclingpickup.png" alt="Recycling Pickup">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="recyclingmap.png">
+    <img src="images/recyclingmap.png" alt="Recycling Map">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="recyclingcanlabel.png">
+    <img src="images/recyclingcanlabel.png" alt="Recycling Can Label">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="recyclingquiz.png">
+    <img src="images/recyclingquiz.png" alt="Recycling Quiz">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="paperprotoype.png">
+    <img src="images/paperprototype.png" alt="Paper Prototype">
+  </a>
+</div>
 		<p>The paper prototype was done to generate a low-fidelity prototype of one of the products of the solution.  I focused on the Recycling Pickup product as my sole focus for the rest of the semester (due to time constraints we were tasked with focusing on one product).  I chose to focus on the Recycling Pickup product as this was the most commonly requested service that users were interested in and would produce the highest level of impact compared to the quiz and social components of the website.</p>
 
 		<p>When designing the paper prototype, I decided to prioritize efficiency and timeliness for the user and created forced-choice displays to allow the users to intuitively and quickly navigate through the request process.</p>
 
 		<p>This prototype was then tested by users to gather additional feedback on its usability.  What emerged at this stage was a need to include options for users to revisit and edit their choices during the process and a need to provide visual cues when a change has been made post-confirmation.</p>
 
-	<h4>Digital Prototype V1</h4>
+		
+<h4>Digital Prototype V1</h4>
 		<p>The digital prototype was created using Adobe XD and addressed the feedback that was gathered from the paper prototype.  Additionally, the number of touch points to complete a user journey was also tabulated to understand the level of effort needed by the user and to see if there were areas of efficiencies that could be addressed.</p>
 
 		<p>This prototype was then tested by users to gather additional usability feedback.  The feedback gathered at this stage was to maintain the service pickup scheduler as pop-up rather than a new page to be more palatable to the user.  Another piece of feedback that was presented was maintaining the order of the bottom buttons to prevent unwanted changes and maintain continuity.</p>
@@ -124,20 +199,9 @@
 
 <h3>Retrospective</h3>
 
-	<p>The retrospective provides an overview of:</p>
-
-		<ol>
-				<p>• The design process outlined above</p>
-				<p>• Key product features</p>
-				<p>• The most important design decision</p>
-				<p>• Product assessment based on Ram's 10 Principles of Good Design</p>
-				<p>• he challenges and opportunities the product addresses</p>
-			</ol>
-
 		<p>Overall, the product delivered on its mission to provide an accessible resource for people to responsibly grow their involvement within the recycling process. With additional time, more user tests would be conducted on the final digital prototype and the color accessibility issues would be addressed.</p>
 
-</main>
 
-<footer>Dylan Canete University of Michigan &copy; 2020</footer>
+<footer>Dylan Canete &copy; 2020</footer>
 </body>
 </html>
